@@ -1,0 +1,63 @@
+{
+  "_args": [
+    [
+      {
+        "raw": "/private/var/folders/d5/r9_tvrl14f1g20wr0dtmwz9m0000gn/T/d-117028-63884-1mq8o8j/package.tgz",
+        "scope": null,
+        "escapedName": null,
+        "name": null,
+        "rawSpec": "/private/var/folders/d5/r9_tvrl14f1g20wr0dtmwz9m0000gn/T/d-117028-63884-1mq8o8j/package.tgz",
+        "spec": "/private/var/folders/d5/r9_tvrl14f1g20wr0dtmwz9m0000gn/T/d-117028-63884-1mq8o8j/package.tgz",
+        "type": "local"
+      },
+      "/private/var/folders/d5/r9_tvrl14f1g20wr0dtmwz9m0000gn/T/apm-install-dir-117028-63884-hmstrx"
+    ]
+  ],
+  "_from": "../d-117028-63884-1mq8o8j/package.tgz",
+  "_id": "toggle-gutter@0.2.2",
+  "_inCache": true,
+  "_installable": true,
+  "_location": "/toggle-gutter",
+  "_phantomChildren": {},
+  "_requested": {
+    "raw": "/private/var/folders/d5/r9_tvrl14f1g20wr0dtmwz9m0000gn/T/d-117028-63884-1mq8o8j/package.tgz",
+    "scope": null,
+    "escapedName": null,
+    "name": null,
+    "rawSpec": "/private/var/folders/d5/r9_tvrl14f1g20wr0dtmwz9m0000gn/T/d-117028-63884-1mq8o8j/package.tgz",
+    "spec": "/private/var/folders/d5/r9_tvrl14f1g20wr0dtmwz9m0000gn/T/d-117028-63884-1mq8o8j/package.tgz",
+    "type": "local"
+  },
+  "_requiredBy": [
+    "#USER"
+  ],
+  "_resolved": "file:../d-117028-63884-1mq8o8j/package.tgz",
+  "_shasum": "72f836e847c9acdf34873197656ed6547c563b49",
+  "_shrinkwrap": null,
+  "_spec": "/private/var/folders/d5/r9_tvrl14f1g20wr0dtmwz9m0000gn/T/d-117028-63884-1mq8o8j/package.tgz",
+  "_where": "/private/var/folders/d5/r9_tvrl14f1g20wr0dtmwz9m0000gn/T/apm-install-dir-117028-63884-hmstrx",
+  "bugs": {
+    "url": "https://github.com/MaximSokolov/toggle-gutter/issues"
+  },
+  "dependencies": {},
+  "description": "Quickly toggle line numbers",
+  "devDependencies": {},
+  "engines": {
+    "atom": ">=1.0.0 <2.0.0"
+  },
+  "homepage": "https://github.com/MaximSokolov/toggle-gutter#readme",
+  "keywords": [
+    "gutter"
+  ],
+  "license": "MIT",
+  "main": "./lib/main",
+  "name": "toggle-gutter",
+  "optionalDependencies": {},
+  "readme": "# [Toggle Gutter](https://atom.io/packages/toggle-gutter)\n\nEasily hide Atom's line numbers\n\n![toggle-gutter](https://raw.githubusercontent.com/MaximSokolov/toggle-gutter/master/img/toggle-gutter.gif)\n\n## Installation\n\n```\napm install toggle-gutter\n```\n\n## Commands\n\n#### Toggle Gutter: Line numbers\n\nProbably you want to disable line numbers but keep __gutters__ because it shows much useful information like git diff, folding marks etc.\n\n```cson\n'atom-workspace':\n  'ctrl-l ctrl-l': 'toggle-gutter:line-numbers'\n```\n\n#### Toggle Gutter: Gutter\n\nHowever you can disable all gutters completely.\n\n```cson\n'atom-workspace':\n  'ctrl-g ctrl-g': 'toggle-gutter:gutter'\n```\n",
+  "readmeFilename": "README.md",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MaximSokolov/toggle-gutter.git"
+  },
+  "version": "0.2.2"
+}

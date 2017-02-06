@@ -1,0 +1,71 @@
+{
+  "_args": [
+    [
+      {
+        "raw": "/private/var/folders/d5/r9_tvrl14f1g20wr0dtmwz9m0000gn/T/d-1161125-9393-10fikhr/package.tgz",
+        "scope": null,
+        "escapedName": null,
+        "name": null,
+        "rawSpec": "/private/var/folders/d5/r9_tvrl14f1g20wr0dtmwz9m0000gn/T/d-1161125-9393-10fikhr/package.tgz",
+        "spec": "/private/var/folders/d5/r9_tvrl14f1g20wr0dtmwz9m0000gn/T/d-1161125-9393-10fikhr/package.tgz",
+        "type": "local"
+      },
+      "/private/var/folders/d5/r9_tvrl14f1g20wr0dtmwz9m0000gn/T/apm-install-dir-1161125-9393-h2fnkp"
+    ]
+  ],
+  "_from": "../d-1161125-9393-10fikhr/package.tgz",
+  "_id": "erb-helper@1.0.1",
+  "_inCache": true,
+  "_installable": true,
+  "_location": "/erb-helper",
+  "_phantomChildren": {},
+  "_requested": {
+    "raw": "/private/var/folders/d5/r9_tvrl14f1g20wr0dtmwz9m0000gn/T/d-1161125-9393-10fikhr/package.tgz",
+    "scope": null,
+    "escapedName": null,
+    "name": null,
+    "rawSpec": "/private/var/folders/d5/r9_tvrl14f1g20wr0dtmwz9m0000gn/T/d-1161125-9393-10fikhr/package.tgz",
+    "spec": "/private/var/folders/d5/r9_tvrl14f1g20wr0dtmwz9m0000gn/T/d-1161125-9393-10fikhr/package.tgz",
+    "type": "local"
+  },
+  "_requiredBy": [
+    "#USER"
+  ],
+  "_resolved": "file:../d-1161125-9393-10fikhr/package.tgz",
+  "_shasum": "94855b20c1614ae8292faddfeaede25fa149755b",
+  "_shrinkwrap": null,
+  "_spec": "/private/var/folders/d5/r9_tvrl14f1g20wr0dtmwz9m0000gn/T/d-1161125-9393-10fikhr/package.tgz",
+  "_where": "/private/var/folders/d5/r9_tvrl14f1g20wr0dtmwz9m0000gn/T/apm-install-dir-1161125-9393-h2fnkp",
+  "activationCommands": {
+    "atom-workspace": [
+      "erb-helper:output",
+      "erb-helper:eval",
+      "erb-helper:comment"
+    ]
+  },
+  "author": {
+    "name": "Mike George",
+    "url": "https://github.com/migeorge"
+  },
+  "bugs": {
+    "url": "https://github.com/migeorge/erb-helper/issues"
+  },
+  "dependencies": {},
+  "description": "ERB Helper makes it easy to insert and wrap ERB tags with Atom.",
+  "devDependencies": {},
+  "engines": {
+    "atom": ">0.50.0"
+  },
+  "homepage": "https://github.com/migeorge/erb-helper#readme",
+  "license": "MIT",
+  "main": "./lib/erb-helper",
+  "name": "erb-helper",
+  "optionalDependencies": {},
+  "readme": "# ERB Helper | Atom Package\n\nERB Helper makes it easy to insert and wrap ERB tags with Atom.\n\n## Usage\n\n| Command Name | ERB Value | Key Binding            |\n|--------------|-----------|------------------------|\n| ERB Output   | <%=  %>   | ```CTRL + SHIFT + .``` |\n| ERB Eval     | <%  %>    | ```CTRL + .```         |\n| ERB Comment  | <%#  %>   | ```CTRL + SHIFT + 3``` |\n\nYou can also find the commands in the Right Click context menu.\n\nIf you select some text before executing a command the text will be wrapped with the\nappropriate tag.\n\n## Installation\n\nInstall from the Atom Package manager or the command line:\n\n\n```$ apm install erb-helper```\n\n## Contributions\n\nContributions are welcome, just create a pull request.\n\nIf there is a feature that you'd like to see added to the package\njust open a new issue.\n",
+  "readmeFilename": "README.md",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/migeorge/erb-helper.git"
+  },
+  "version": "1.0.1"
+}

@@ -1,0 +1,32 @@
+"*":
+  "autocomplete-plus":
+    enableAutoActivation: false
+  autosave:
+    enabled: true
+  core:
+    audioBeep: false
+    disabledPackages: [
+      "wrap-guide"
+    ]
+    telemetryConsent: "no"
+    themes: [
+      "atom-dark-ui"
+      "solarized-dark-syntax"
+    ]
+  editor:
+    fontFamily: "SourceCodePro-Light"
+    fontSize: 19
+    preferredLineLength: 72
+    scrollPastEnd: true
+    softWrap: true
+    softWrapAtPreferredLineLength: true
+  "exception-reporting":
+    userId: "e6908e7f-019e-86a7-cce1-adbb55a2e699"
+  "gist-it":
+    openAfterCreate: true
+  "toggle-gutter":
+    showNumbers: true
+  "vim-mode-plus":
+    startInInsertMode: true
+  welcome:
+    showOnStartup: false
