@@ -9,14 +9,21 @@
     body: """
       describe("${1:description}", function () {
       \t$2
-      });$3
+      });
     """
   'It block':
     prefix: 'it'
     body: """
       it("${1:description}", function () {
       \t$2
-      });$3
+      });
+    """
+  'It block':
+    prefix: 'ii'
+    body: """
+      it("${1:description}", function () {
+        expect(_.${2:function}(${3:args})).toEqual(true);
+      });$4
     """
   'It Async block':
     prefix: 'itA'
