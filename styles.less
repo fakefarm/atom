@@ -18,7 +18,15 @@
 // style the background color of the tree view
 .tree-view {
   // background-color: whitesmoke;
+  font-size: 18px;
+  font-family: 'SourceCodePro-Light';
 }
+//
+// .icon-file-directory {
+//     font-size: 30px;
+//     padding: 16px 0;
+//     display: inline-block;
+// }
 
 // style the background and foreground colors on the atom-text-editor-element itself
 atom-text-editor {
@@ -31,10 +39,16 @@ atom-text-editor::shadow .cursor {
   // border-color: red;
 }
 
+atom-text-editor::shadow .is-focused .cursors .cursor {
+  opacity: 1;
+}
+
+
 .syntax--null-grammar {
-  color: rgba(255,255,255,1);
+  // _dw comment out while white color theme
+  // color: rgba(255,255,255,1);
 }
 
 atom-text-editor::shadow .gutter {
- margin-right: 40px;
+ // margin-right: 40px;
 }

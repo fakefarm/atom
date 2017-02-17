@@ -1,0 +1,67 @@
+{
+  "_args": [
+    [
+      {
+        "raw": "/private/var/folders/d5/r9_tvrl14f1g20wr0dtmwz9m0000gn/T/d-117115-70679-cwdoaq/package.tgz",
+        "scope": null,
+        "escapedName": null,
+        "name": null,
+        "rawSpec": "/private/var/folders/d5/r9_tvrl14f1g20wr0dtmwz9m0000gn/T/d-117115-70679-cwdoaq/package.tgz",
+        "spec": "/private/var/folders/d5/r9_tvrl14f1g20wr0dtmwz9m0000gn/T/d-117115-70679-cwdoaq/package.tgz",
+        "type": "local"
+      },
+      "/private/var/folders/d5/r9_tvrl14f1g20wr0dtmwz9m0000gn/T/apm-install-dir-117115-70679-hu0jwu"
+    ]
+  ],
+  "_from": "../d-117115-70679-cwdoaq/package.tgz",
+  "_id": "atom-focus-mode@0.6.0",
+  "_inCache": true,
+  "_installable": true,
+  "_location": "/atom-focus-mode",
+  "_phantomChildren": {},
+  "_requested": {
+    "raw": "/private/var/folders/d5/r9_tvrl14f1g20wr0dtmwz9m0000gn/T/d-117115-70679-cwdoaq/package.tgz",
+    "scope": null,
+    "escapedName": null,
+    "name": null,
+    "rawSpec": "/private/var/folders/d5/r9_tvrl14f1g20wr0dtmwz9m0000gn/T/d-117115-70679-cwdoaq/package.tgz",
+    "spec": "/private/var/folders/d5/r9_tvrl14f1g20wr0dtmwz9m0000gn/T/d-117115-70679-cwdoaq/package.tgz",
+    "type": "local"
+  },
+  "_requiredBy": [
+    "#USER"
+  ],
+  "_resolved": "file:../d-117115-70679-cwdoaq/package.tgz",
+  "_shasum": "d81ccdb8dea7113be60100829030a9a022907496",
+  "_shrinkwrap": null,
+  "_spec": "/private/var/folders/d5/r9_tvrl14f1g20wr0dtmwz9m0000gn/T/d-117115-70679-cwdoaq/package.tgz",
+  "_where": "/private/var/folders/d5/r9_tvrl14f1g20wr0dtmwz9m0000gn/T/apm-install-dir-117115-70679-hu0jwu",
+  "activationCommands": {
+    "atom-workspace": [
+      "atom-focus-mode:toggle",
+      "atom-focus-mode:toggle-single-line",
+      "atom-focus-mode:toggle-shadow-mode"
+    ]
+  },
+  "bugs": {
+    "url": "https://github.com/davidleghorn/atom-focus-mode/issues"
+  },
+  "dependencies": {},
+  "description": "Fades editor content and highlights only the lines you are working on.",
+  "devDependencies": {},
+  "engines": {
+    "atom": ">=1.0.0"
+  },
+  "homepage": "https://github.com/davidleghorn/atom-focus-mode#readme",
+  "license": "MIT",
+  "main": "./lib/main",
+  "name": "atom-focus-mode",
+  "optionalDependencies": {},
+  "readme": "# atom-focus-mode\n\nHelps you focus on only the lines of code you are working with,\nall other lines are faded into the background.\n\n![Focus mode screenshot](https://raw.githubusercontent.com/davidleghorn/atom-focus-mode/master/screenshots/focus-mode.png)\n\n### focus mode\nFades all lines in the editor except the lines you focus\nwith your keyboard or highlight with your mouse.\n\nTo toggle focus mode;\n\n* Key bindings - Ctrl+alt+o\n* Main atom menu bar, Packages > Focus Mode > Toggle focus mode\n* Right click menu > Focus Mode > Toggle focus mode\n\n\n### focus mode single line\nFades all lines in the editor except for lines that have cursor focus.\n\nTo toggle focus mode single line;\n\n* Key bindings - Ctrl+alt+i\n* Main atom menu bar, Packages > Focus Mode > Toggle focus mode\n* Right click menu > Focus Mode > Toggle focus mode\n\n\n### focus shadow mode\nFades all lines in the editor and highlights the cursor line and the two lines\nbefore and after the cursor line. The number of lines to highlight before and after the cursor line can be configured via package settings.\n\nTo toggle focus shadow mode;\n\n* Key bindings - Ctrl+alt+u\n* Main atom menu bar, Packages > Focus Mode > Toggle focus shadow mode\n* Right click menu > Focus Mode > Toggle focus shadow mode\n\n\nYou can change the key bindings used by focus mode via Atom > Preferences > Keybindings.\n",
+  "readmeFilename": "README.md",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/davidleghorn/atom-focus-mode.git"
+  },
+  "version": "0.6.0"
+}

@@ -1,0 +1,22 @@
+[
+  {
+    title: "http_rewrite"
+    paths: [
+      "/Users/dave/Code/rewrites/_httparty/rewrite_httparty/lib"
+      "/Users/dave/Code/rewrites/_httparty/rewrite_httparty/spec"
+    ]
+  }
+  {
+    title: "http_source"
+    paths: [
+      "/Users/dave/Code/rewrites/_httparty/httparty_source/lib"
+      "/Users/dave/Code/rewrites/_httparty/httparty_source/spec"
+    ]
+  }
+  {
+    title: "Underscore Source"
+    paths: [
+      "/Users/dave/Code/rewrites/_underscore/underscore"
+    ]
+  }
+]

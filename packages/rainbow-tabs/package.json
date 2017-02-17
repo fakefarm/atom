@@ -1,0 +1,65 @@
+{
+  "_args": [
+    [
+      {
+        "raw": "/private/var/folders/d5/r9_tvrl14f1g20wr0dtmwz9m0000gn/T/d-117115-69515-ca1d8i/package.tgz",
+        "scope": null,
+        "escapedName": null,
+        "name": null,
+        "rawSpec": "/private/var/folders/d5/r9_tvrl14f1g20wr0dtmwz9m0000gn/T/d-117115-69515-ca1d8i/package.tgz",
+        "spec": "/private/var/folders/d5/r9_tvrl14f1g20wr0dtmwz9m0000gn/T/d-117115-69515-ca1d8i/package.tgz",
+        "type": "local"
+      },
+      "/private/var/folders/d5/r9_tvrl14f1g20wr0dtmwz9m0000gn/T/apm-install-dir-117115-69515-18fpnp6"
+    ]
+  ],
+  "_from": "../d-117115-69515-ca1d8i/package.tgz",
+  "_id": "rainbow-tabs@2.2.1",
+  "_inCache": true,
+  "_installable": true,
+  "_location": "/rainbow-tabs",
+  "_phantomChildren": {},
+  "_requested": {
+    "raw": "/private/var/folders/d5/r9_tvrl14f1g20wr0dtmwz9m0000gn/T/d-117115-69515-ca1d8i/package.tgz",
+    "scope": null,
+    "escapedName": null,
+    "name": null,
+    "rawSpec": "/private/var/folders/d5/r9_tvrl14f1g20wr0dtmwz9m0000gn/T/d-117115-69515-ca1d8i/package.tgz",
+    "spec": "/private/var/folders/d5/r9_tvrl14f1g20wr0dtmwz9m0000gn/T/d-117115-69515-ca1d8i/package.tgz",
+    "type": "local"
+  },
+  "_requiredBy": [
+    "#USER"
+  ],
+  "_resolved": "file:../d-117115-69515-ca1d8i/package.tgz",
+  "_shasum": "3b61703931cb7767d5c82d119c579a6c8c1eede8",
+  "_shrinkwrap": null,
+  "_spec": "/private/var/folders/d5/r9_tvrl14f1g20wr0dtmwz9m0000gn/T/d-117115-69515-ca1d8i/package.tgz",
+  "_where": "/private/var/folders/d5/r9_tvrl14f1g20wr0dtmwz9m0000gn/T/apm-install-dir-117115-69515-18fpnp6",
+  "bugs": {
+    "url": "https://github.com/graemeboy/rainbow-tabs/issues"
+  },
+  "dependencies": {},
+  "description": "Adds color to the text of atom tabs, according to file extension (e.g. JS tabs are yellow)",
+  "devDependencies": {},
+  "engines": {
+    "atom": ">=1.0.0 <2.0.0"
+  },
+  "homepage": "https://github.com/graemeboy/rainbow-tabs#readme",
+  "keywords": [
+    "tabs",
+    "color",
+    "extension"
+  ],
+  "license": "MIT",
+  "main": "./lib/rainbow-tabs",
+  "name": "rainbow-tabs",
+  "optionalDependencies": {},
+  "readme": "# Rainbow Tabs: An Atom Package\n\nAdds color the text of atom tabs, according to file extension.\n\n![A screenshot of rainbow extensions](https://raw.githubusercontent.com/graemeboy/rainbow-tabs/master/resources/screenshot1.png)\n\nIf you want more extensions supported, or want to override any of the current colors, please feel free to make a pull request.\n",
+  "readmeFilename": "README.md",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/graemeboy/rainbow-tabs.git"
+  },
+  "version": "2.2.1"
+}

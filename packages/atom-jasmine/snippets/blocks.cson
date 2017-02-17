@@ -18,12 +18,12 @@
       \t$2
       });
     """
-  'It block':
+  'It blocky':
     prefix: 'ii'
     body: """
       it("${1:description}", function () {
-        expect(_.${2:function}(${3:args})).toEqual(true);
-      });$4
+        expect(_.${2:function}(${3:args})).toEqual(${4:equal});
+      });$5
     """
   'It Async block':
     prefix: 'itA'

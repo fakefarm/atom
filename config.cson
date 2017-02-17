@@ -3,18 +3,21 @@
     enableAutoActivation: false
   autosave:
     enabled: true
+  "color-picker":
+    automaticReplace: true
   core:
     audioBeep: false
     disabledPackages: [
       "wrap-guide"
+      "rainbow-tabs"
     ]
     telemetryConsent: "no"
     themes: [
-      "atom-dark-ui"
-      "solarized-dark-syntax"
+      "atom-light-ui"
+      "atom-light-syntax"
     ]
   editor:
-    fontFamily: "SourceCodePro-Light"
+    fontFamily: "Source Code Pro"
     fontSize: 19
     preferredLineLength: 72
     scrollPastEnd: true
@@ -24,6 +27,7 @@
     userId: "e6908e7f-019e-86a7-cce1-adbb55a2e699"
   "gist-it":
     openAfterCreate: true
+  "project-manager": {}
   "toggle-gutter":
     showNumbers: true
   "vim-mode-plus":
